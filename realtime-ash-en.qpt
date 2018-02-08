@@ -1,0 +1,683 @@
+<Composer title="ash" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{1f9c556a-1f89-40c7-a988-22c52112606a}" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <SnapLine y1="0" x1="6.94138" y2="297" x2="6.94138"/>
+  <SnapLine y1="6.94138" x1="0" y2="6.94138" x2="210"/>
+  <SnapLine y1="289.924" x1="0" y2="289.924" x2="210"/>
+  <SnapLine y1="0" x1="202.914" y2="297" x2="202.914"/>
+  <SnapLine y1="0" x1="111.869" y2="297" x2="111.869"/>
+  <SnapLine y1="119.133" x1="0" y2="119.133" x2="210"/>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Report Expires: [%format_date(to_date(beautify_date(hazard_extra_keyword('volcano_eruption_event_time'))) + to_interval('1 day'),'dd-MMM-yyyy')%] [%beautify_time(hazard_extra_keyword('volcano_eruption_event_time'))%] [%hazard_extra_keyword('time_zone')%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="41.1563" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.96916" y="41.1563" visibility="1" zValue="135" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="119.768" outlineWidth="0.3" excludeFromExports="0" uuid="{ca8428a4-a684-4be4-b80a-681edcd23558}" height="7.70595" itemRotation="0" frame="false" pagex="6.96916">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Region: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="47.065" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="128.005" y="47.065" visibility="1" zValue="132" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.3115" outlineWidth="0.3" excludeFromExports="0" uuid="{174f24d5-29aa-4f04-8892-a6a4b64ea716}" height="6.665" itemRotation="0" frame="false" pagex="128.005">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Elapsed time since event [%case &#xa;when hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))) > 24 &#xa;then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*60)), ' minute(s)')&#xa;end&#xa;%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="35.8768" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.91216" y="35.8768" visibility="1" zValue="131" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="121.092" outlineWidth="0.3" excludeFromExports="0" uuid="{4697cf71-9df2-435d-85dc-2c2ae084515a}" height="7.70595" itemRotation="0" frame="false" pagex="6.91216">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Volcano: [% hazard_extra_keyword('volcano_name') %], [%format_date(to_date(beautify_date(hazard_extra_keyword('volcano_eruption_event_time'))),'dd-MMM-yyyy')%] [%beautify_time(hazard_extra_keyword('volcano_eruption_event_time'))%] [%hazard_extra_keyword('time_zone')%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="30.8646" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7.01516" y="30.8646" visibility="1" zValue="129" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="119.722" outlineWidth="0.3" excludeFromExports="0" uuid="{b43b5987-9021-4249-bbd6-6f06688ee82f}" height="6.665" itemRotation="0" frame="false" pagex="7.01516">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Eruption Column Height (a.s.l) - [% hazard_extra_keyword( 'volcano_eruption_height' ) + hazard_extra_keyword( 'volcano_height' ) %] m" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="36.3553" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="127.853" y="36.3553" visibility="1" zValue="124" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.2098" outlineWidth="0.3" excludeFromExports="0" uuid="{cd514eaa-2386-47c3-b619-d66a1c0e856c}" height="6.665" itemRotation="0" frame="false" pagex="127.853">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Position : [% concat(floor(hazard_extra_keyword( 'volcano_longitude' )), '°',floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)%1*60), '&quot;')%] E, [% concat(floor(abs(hazard_extra_keyword( 'volcano_latitude' ))), '°',floor(abs(hazard_extra_keyword('volcano_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'volcano_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('volcano_latitude')) &lt; 0 then 'S'&#xa;else 'N'&#xa;end%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="41.4063" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="127.918" y="41.4063" visibility="1" zValue="123" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.3985" outlineWidth="0.3" excludeFromExports="0" uuid="{c4cb4af2-db18-44f0-8b84-3a554eb73fd6}" height="7.70595" itemRotation="0" frame="false" pagex="127.918">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Model duration: [%hazard_extra_keyword('volcano_forecast_duration')%] day(s)" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="47.075" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.97616" y="47.075" visibility="1" zValue="122" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.4595" outlineWidth="0.3" excludeFromExports="0" uuid="{de3b4a98-5ab7-447d-86b0-751adbd56e55}" height="6.665" itemRotation="0" frame="false" pagex="6.97616">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Alert Level: [% hazard_extra_keyword( 'volcano_alert_level' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="30.8646" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="127.853" y="30.8646" visibility="1" zValue="121" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.2098" outlineWidth="0.3" excludeFromExports="0" uuid="{21cb2346-f4cd-4301-a981-8df833a9ada5}" height="6.665" itemRotation="0" frame="false" pagex="127.853">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Region: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="32.8646" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-41.6483" y="32.8646" visibility="1" zValue="80" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{d5826316-5f81-496b-8e3d-44b940e5d044}" height="6.665" itemRotation="0" frame="false" pagex="-41.6483">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Disclaimer" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,11,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="247.967" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.93186" y="247.967" visibility="1" zValue="41" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.3546" outlineWidth="0.3" excludeFromExports="0" uuid="{b73c2c19-14eb-4c4d-a73d-8a161582cd53}" height="5" itemRotation="0" frame="false" pagex="6.93186">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="247.973" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.94138" y="247.973" visibility="1" zValue="40" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="195.973" outlineWidth="0.3" excludeFromExports="0" uuid="{d3378e1d-80c0-44cb-ba9b-7e069852f5fc}" height="5" itemRotation="0" frame="false" pagex="6.94138">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Report Time: [%case &#xa;when hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))) > 24 &#xa;then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*60)), ' minute(s)')&#xa;end&#xa;%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="112.898" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.507" y="112.898" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8705" outlineWidth="0.3" excludeFromExports="0" uuid="{00c0e2aa-ec98-4e43-9917-31824063c32c}" height="7.2314" itemRotation="0" frame="false" pagex="-137.507">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Position: [% concat(floor(hazard_extra_keyword( 'volcano_longitude' )), '°',floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)%1*60), '&quot;')%] E, [% concat(floor(abs(hazard_extra_keyword( 'volcano_latitude' ))), '°',floor(abs(hazard_extra_keyword('volcano_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'volcano_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('volcano_latitude')) &lt; 0 then 'S'&#xa;else 'N'&#xa;end%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="87.9022" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.098" y="87.9022" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8705" outlineWidth="0.3" excludeFromExports="0" uuid="{947263be-e555-4141-9ad8-3e8e9cd001eb}" height="7.2314" itemRotation="0" frame="false" pagex="-156.098">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Alert level: [% hazard_extra_keyword( 'volcano_alert_level' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="122.883" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.486" y="122.883" visibility="1" zValue="37" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{2c6c5e52-39cd-4a39-b366-a80eb13ca026}" height="7.2314" itemRotation="0" frame="false" pagex="-137.486">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Report expires: " htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="117.872" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.453" y="117.872" visibility="1" zValue="36" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{0d896dd4-bd87-4945-b831-5a9f27d6438b}" height="7.2314" itemRotation="0" frame="false" pagex="-137.453">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Model duration:" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="107.876" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.48" y="107.876" visibility="1" zValue="35" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{9b6170d2-0189-441c-9eb9-bc449102004a}" height="7.2314" itemRotation="0" frame="false" pagex="-137.48">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Province: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="97.8871" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.077" y="97.8871" visibility="1" zValue="34" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{eaa6118b-5ee2-4005-a1b4-25b10a482ebf}" height="7.2314" itemRotation="0" frame="false" pagex="-156.077">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Eruption Column Height (asl): 5900 m" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="92.8761" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.045" y="92.8761" visibility="1" zValue="33" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{410c6f50-d6ec-48e5-a62b-7a161e6dffb1}" height="7.2314" itemRotation="0" frame="false" pagex="-156.045">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Volcano: [% hazard_extra_keyword('volcano_name') %]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="82.8798" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.071" y="82.8798" visibility="1" zValue="32" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{fa88d0ff-24dc-46fd-b5f2-71b9d6d98717}" height="7.2314" itemRotation="0" frame="false" pagex="-156.071">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="The estimation does not include the potential impact of airborne volcanic ash on aviation services. Nearby airports may already be affected or become affected in future by ash fall on the ground or other hazards." htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="300.713" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.035" y="300.713" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="189.925" outlineWidth="0.3" excludeFromExports="0" uuid="{6a83d62b-e0cd-476d-bd14-430a16997b27}" height="8.7582" itemRotation="0" frame="false" pagex="12.035">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Event Time " htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="41.7459" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.871" y="41.7459" visibility="1" zValue="29" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{232191df-67be-484c-8592-902b89e0fe72}" height="6.665" itemRotation="0" frame="false" pagex="-222.871">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Eruption Column Height (a.s.l) - [% hazard_extra_keyword( 'volcano_eruption_height' ) + hazard_extra_keyword( 'volcano_height' ) %] m" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="46.8118" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="46.8118" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.165" outlineWidth="0.3" excludeFromExports="0" uuid="{a37da7b1-ae58-4b87-aeee-72d727fa6f43}" height="7.03725" itemRotation="0" frame="false" pagex="-222.828">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Alert Level: [% hazard_extra_keyword( 'volcano_alert_level' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="47.1841" page="1" id="report-alert-level" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="47.1841" visibility="1" zValue="27" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="84.876" outlineWidth="0.3" excludeFromExports="0" uuid="{7d00821a-0d02-4542-9593-e14357ff77da}" height="6.665" itemRotation="0" frame="false" pagex="-117.347">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="285.352" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="193.552" y="285.352" visibility="1" zValue="26" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="9.36225" outlineWidth="0.3" excludeFromExports="0" uuid="{1d163a9c-e1c5-404a-81bb-e657b5335dff}" height="4.52891" itemRotation="0" frame="false" pagex="193.552">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="37.8469" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./logo/inasafe.svg" northOffset="0" pictureHeight="19.647" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="275.528" page="1" id="logo-inasafe" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="157.733" y="275.528" visibility="1" zValue="25" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.2474" outlineWidth="0.3" excludeFromExports="0" uuid="{6c7caa9a-2739-4382-bf34-bb2311fd1615}" height="19.647" itemRotation="0" frame="false" pagex="157.733">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="inasafe_logo_black_path()" field="" active="true" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" marginX="2" marginY="1" labelText="Supported by DMInnovation, Geoscience Australia and the World Bank-GFDRR" htmlState="0" halign="1">
+   <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="284.919" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.93186" y="284.919" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="127.257" outlineWidth="0.3" excludeFromExports="0" uuid="{f41672bf-0fc3-4f00-bfd7-bcf11bcea493}" height="5" itemRotation="0" frame="false" pagex="6.93186">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Position : [% concat(floor(hazard_extra_keyword( 'volcano_longitude' )), '°',floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)%1*60), '&quot;')%] E, [% concat(floor(abs(hazard_extra_keyword( 'volcano_latitude' ))), '°',floor(abs(hazard_extra_keyword('volcano_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'volcano_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('volcano_latitude')) &lt; 0 then 'S'&#xa;else 'N'&#xa;end%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="41.8601" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="41.8601" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="84.655" outlineWidth="0.3" excludeFromExports="0" uuid="{dc04096d-c614-4552-ae28-5f5a692446cb}" height="6.665" itemRotation="0" frame="false" pagex="-117.347">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="22.0499" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/badan-geologi.png" northOffset="0" pictureHeight="21.2919" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="7.1296" page="1" id="logo-geologi" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="163.972" y="7.1296" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="22.0499" outlineWidth="0.3" excludeFromExports="0" uuid="{d2c743d8-7313-4c69-ae74-aacdb9dfc853}" height="21.412" itemRotation="0" frame="false" pagex="163.972">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="15.9554" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/bnpb.png" northOffset="0" pictureHeight="21.412" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="7.1296" page="1" id="logo-bnpb" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="27.6276" y="7.1296" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="17.5459" outlineWidth="0.3" excludeFromExports="0" uuid="{5b8f37fa-cf35-4238-9911-0abc3cc41128}" height="21.412" itemRotation="0" frame="false" pagex="27.6276">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Land Cover Impact" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,11,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="190.556" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="116.883" y="190.556" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="46.4231" outlineWidth="0.3" excludeFromExports="0" uuid="{92677e26-874a-451d-84a4-fae5237c65b8}" height="5" itemRotation="0" frame="false" pagex="116.883">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Nearby Places" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,11,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="119.093" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="116.863" y="119.093" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="39.135" outlineWidth="0.3" excludeFromExports="0" uuid="{15acafbb-d534-4ff5-a004-4beaa5efad4a}" height="5" itemRotation="0" frame="false" pagex="116.863">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="279.747" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.93186" y="279.747" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="195.982" outlineWidth="0.1" excludeFromExports="0" uuid="{d3248cd8-4d5b-4fc4-8b76-e70e367466f4}" height="5.76551" itemRotation="0" frame="false" pagex="6.93186">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="2" marginY="0" labelText="The impact estimation is automatically generated and only takes into account the population, cities and land cover affected by different levels of volcanic ash fallout at surface level. The estimation does not include the potential impact of airborne volcanic ash on aviation services. Nearby airports may already be affected or become affected in future by ash fall on the ground or other hazards. The estimate is based on volcanic ash fallout data from Badan Geologi, population count data derived by DMInnovation from worldpop.org.uk, place information and land cover classification data provided by Indonesian Geospatial Portal at http://portal.ina-sdi.or.id and software developed by BNPB. Limitation in the estimates of surface fallout, population and place names datasets may result in a significant misrepresentation of the on-the-surface situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources." htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="253.827" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.93186" y="253.827" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="195.982" outlineWidth="0.1" excludeFromExports="0" uuid="{cdf8b876-e920-41f1-a68b-ec882536e2af}" height="26.9514" itemRotation="0" frame="false" pagex="6.93186">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Potential Impact at Each Fallout Level" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,14,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="51.2279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9.81383" y="51.2279" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="190.032" outlineWidth="0.3" excludeFromExports="0" uuid="{57c34422-94e2-449e-a37e-eed522d9c0c4}" height="10.5957" itemRotation="0" frame="false" pagex="9.81383">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Region: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="52.4075" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="52.4075" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{f5759d2a-8174-4dba-95c8-7b73ff7832c0}" height="6.665" itemRotation="0" frame="false" pagex="-222.828">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Elapsed time since event [%case &#xa;when hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))) > 24 &#xa;then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*60)), ' minute(s)')&#xa;end&#xa;%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="35.4478" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="35.4478" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="105.422" outlineWidth="0.3" excludeFromExports="0" uuid="{67c04ad7-c4f3-4bb1-9b18-3f3db4630f1e}" height="7.70595" itemRotation="0" frame="false" pagex="-117.347">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Volcano : [% hazard_extra_keyword('volcano_name') %]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="34.0029" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="34.0029" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.165" outlineWidth="0.3" excludeFromExports="0" uuid="{493d0f1c-1b06-4af6-8667-62cc85114c9d}" height="10.5957" itemRotation="0" frame="false" pagex="-222.828">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Volcanic Ash" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,26,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="6.8138" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="47.3886" y="6.8138" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="114.137" outlineWidth="0.3" excludeFromExports="0" uuid="{92f06d56-8ebd-4184-85c9-bed3343efe4b}" height="21.7278" itemRotation="0" frame="false" pagex="47.3886">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="29.9318" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.91216" y="29.9318" visibility="1" zValue="8" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="196.002" outlineWidth="0.3" excludeFromExports="0" uuid="{4cc9e8fa-1f1d-4b40-9847-84ce25a25704}" height="2.06818" itemRotation="0" frame="false" pagex="6.91216">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="119.156" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="116.863" y="119.156" visibility="1" zValue="7" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="86.0512" outlineWidth="0.3" excludeFromExports="0" uuid="{98310c64-9a49-4de2-860d-0fe841224dfa}" height="5" itemRotation="0" frame="false" pagex="116.863">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="190.562" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="116.883" y="190.562" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="86.031" outlineWidth="0.3" excludeFromExports="0" uuid="{2fe3915d-26cd-4235-aba2-1d4e08a34c4e}" height="5" itemRotation="0" frame="false" pagex="116.883">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="61,178,221,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="284.92" page="1" id="" lastValidViewScaleFactor="-1" positionMode="6" positionLock="false" x="6.941" y="284.92" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="151.937" outlineWidth="0.3" excludeFromExports="0" uuid="{04fbf7f8-96a4-42ea-b06f-c0a6863bc9d8}" height="5" itemRotation="0" frame="false" pagex="6.941">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="true" followPresetName="" id="0" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="-11.61268472365324733" xmin="93.96318314638176616" ymax="9.32503241181003695" xmax="142.18800620785503952"/>
+   <LayerSet/>
+   <LayerStyles/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{b7907f8e-4884-4219-a664-9d8d4570d7ea}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="diameter"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <ComposerMapOverview frameMap="2" centered="0" inverted="0" uuid="{a6206894-3e40-4f60-891a-da3e3ea0ac27}" name="Overview 1" show="1" blendMode="0">
+    <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+     <layer pass="0" class="SimpleFill" locked="0">
+      <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="color" v="255,0,0,255"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="outline_color" v="255,0,0,255"/>
+      <prop k="outline_style" v="solid"/>
+      <prop k="outline_width" v="0.4"/>
+      <prop k="outline_width_unit" v="MM"/>
+      <prop k="style" v="no"/>
+     </layer>
+    </symbol>
+   </ComposerMapOverview>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="216.718" page="1" id="map-overall" lastValidViewScaleFactor="3.09737" positionMode="0" positionLock="false" x="9.96383" y="216.718" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.2065" outlineWidth="0.3" excludeFromExports="0" uuid="{3a9606a6-5f9a-4d80-8405-b7df089ddda3}" height="23.5348" itemRotation="0" frame="true" pagex="9.96383">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="54.1341" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./Template/Indonesia.png" northOffset="0" pictureHeight="23.4312" mapId="0" anchorPoint="0">
+   <ComposerItem pagey="216.971" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9.81383" y="216.971" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="54.5065" outlineWidth="0.3" excludeFromExports="0" uuid="{f7615494-6057-47c4-9b0e-b2427c1def0e}" height="23.4312" itemRotation="0" frame="false" pagex="9.81383">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="2" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="-7.31045813540286815" xmin="107.25332655102545232" ymax="-6.42635183134053989" xmax="107.99518495404429075"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="2" showAnnotation="1" topFrameDivisions="0" uuid="{5a6a4ca8-27ad-4080-9590-e5aad8b046e3}" leftAnnotationDirection="2" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.5" gridFrameSideFlags="15" intervalY="0.5" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="0" gridFramePenThickness="0" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="1" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="diameter"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+     <srsid>3452</srsid>
+     <srid>4326</srid>
+     <authid>EPSG:4326</authid>
+     <description>WGS 84</description>
+     <projectionacronym>longlat</projectionacronym>
+     <ellipsoidacronym>WGS84</ellipsoidacronym>
+     <geographicflag>true</geographicflag>
+    </spatialrefsys>
+    <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="121.321" page="1" id="map-impact" lastValidViewScaleFactor="3.09737" positionMode="0" positionLock="false" x="9.17743" y="121.321" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100.761" outlineWidth="0.3" excludeFromExports="0" uuid="{1f9c556a-1f89-40c7-a988-22c52112606a}" height="120.081" itemRotation="0" frame="false" pagex="9.17743">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
+    <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="true" useExpr="true"/>
+    <dataDefinedMapYMin expr="y_min(geom_from_wkt(@analysis_extent))" field="" active="true" useExpr="true"/>
+    <dataDefinedMapXMax expr="x_max(geom_from_wkt(@analysis_extent))" field="" active="true" useExpr="true"/>
+    <dataDefinedMapYMax expr="y_max(geom_from_wkt(@analysis_extent))" field="" active="true" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerHtml maxBreakDistance="0" contentMode="1" resizeMode="0" url="" useSmartBreaks="false" evaluateExpressions="true" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html>&#xd;&#xa;&#xd;&#xa;&lt;head>&#xd;&#xa;    &lt;style>&#xd;&#xa;        table {&#xd;&#xa;            border: 1px solid black;&#xd;&#xa;            border-collapse: collapse;&#xd;&#xa;            font-family: &quot;Ubuntu&quot;;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        th {&#xd;&#xa;            border-bottom: 1px solid black;&#xd;&#xa;            padding: 5px;&#xd;&#xa;            height: 30px;&#xd;&#xa;            font-size: 13px;&#xd;&#xa;            font-weight: bold;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        td {&#xd;&#xa;            border-bottom: 1px solid black;&#xd;&#xa;            padding: 5px;&#xd;&#xa;            background-color: #f2f2f2;&#xd;&#xa;            font-size: 12px;&#xd;&#xa;        }&#xd;&#xa;        .center{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align:center;&#xd;&#xa;        }&#xd;&#xa;        .right{&#xd;&#xa;            text-align:right;&#xd;&#xa;            width: 50%;&#xd;&#xa;        }&#xd;&#xa;    &lt;/style>&#xd;&#xa;&lt;/head>&#xd;&#xa;&#xd;&#xa;&lt;body onload=&quot;CreateTableFromJSON()&quot;>&#xd;&#xa;    &lt;div id=&quot;nearbyTable&quot;>&lt;/div>&#xd;&#xa;&lt;/body>&#xd;&#xa;&#xd;&#xa;&lt;script>&#xd;&#xa;    function CreateTableFromJSON() {&#xd;&#xa;        var header = [&quot;Name&quot;, &quot;People Affected&quot;, &quot;Fallout Level&quot;];&#xd;&#xa;        var city_name = [&quot;[% aggregate( layer:='Number of places', aggregate:='concatenate', expression:=&quot;exposure_name&quot;, concatenator:='&quot;,&quot; ', filter:=affected='True')%]&quot;];&#xd;&#xa;        var hazard_class = [&quot;[% aggregate( layer:='Number of places', aggregate:='concatenate', expression:=&quot;hazard_class&quot;, concatenator:='&quot;, &quot;', filter:=affected='True')%]&quot;];&#xd;&#xa;        var population = [&quot;[% aggregate( layer:='Number of places', aggregate:='concatenate', expression:=to_string(floor(population/1000)), concatenator:='&quot;, &quot;', filter:=affected='True')%]&quot;];&#xd;&#xa;&#xd;&#xa;        //Create table&#xd;&#xa;        var table = document.createElement(&quot;table&quot;);&#xd;&#xa;        table.setAttribute(&quot;width&quot;, &quot;100%&quot;)&#xd;&#xa;        //create header&#xd;&#xa;        var tr = table.insertRow(-1);&#xd;&#xa;        var header_name = document.createElement(&quot;th&quot;);&#xd;&#xa;        header_name.innerHTML = &quot;Name&quot;;&#xd;&#xa;        var header_pop = document.createElement(&quot;th&quot;);&#xd;&#xa;        header_pop.innerHTML = &quot;People / Airport Affected (x1000)&quot;;&#xd;&#xa;        var header_fallout = document.createElement(&quot;th&quot;);&#xd;&#xa;        header_fallout.innerHTML = &quot;Fallout Level&quot;;&#xd;&#xa;        &#xd;&#xa;        tr.appendChild(header_name);&#xd;&#xa;        tr.appendChild(header_pop);&#xd;&#xa;        tr.appendChild(header_fallout);&#xd;&#xa;        &#xd;&#xa;        if (city_name.length &lt; 1) {&#xd;&#xa;            tr = table.insertRow(-1)&#xd;&#xa;            var cellName = tr.insertCell(-1);&#xd;&#xa;            cellName.innerHTML = &quot;Less than one&quot;;&#xd;&#xa;            cellName.setAttribute(&quot;colspan&quot;, &quot;3&quot;);&#xd;&#xa;        } else {&#xd;&#xa;            for (var i = 0; i &lt; city_name.length; i++) {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;tr = table.insertRow(-1)&#xd;&#xa;                var cellName = tr.insertCell(-1);&#xd;&#xa;                cellName.innerHTML = city_name[i];&#xd;&#xa;                var cellPeople = tr.insertCell(-1);&#xd;&#xa;                cellPeople.className = &quot;right&quot;&#xd;&#xa;                cellPeople.innerHTML = population[i];&#xd;&#xa;                var cellFallout = tr.insertCell(-1);&#xd;&#xa;                cellFallout.innerHTML = hazard_class[i];&#xd;&#xa;            }&#xd;&#xa;        }&#xd;&#xa;&#x9;&#x9;&#xd;&#xa;        // add table&#xd;&#xa;        var divContainer = document.getElementById(&quot;nearbyTable&quot;);&#xd;&#xa;        divContainer.innerHTML = &quot;&quot;;&#xd;&#xa;        divContainer.appendChild(table);&#xd;&#xa;    }&#xd;&#xa;&lt;/script>&#xd;&#xa;&#xd;&#xa;&lt;/html>" stylesheetEnabled="false" stylesheet="">
+   <ComposerFrame sectionWidth="89.7067" sectionHeight="65.7516" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+    <ComposerItem pagey="123.267" page="1" id="table-nearby" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="114.998" y="123.267" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.7067" outlineWidth="0.3" excludeFromExports="0" uuid="{2621dbdf-7dc7-45ea-b239-2a51860de152}" height="65.7516" itemRotation="0" frame="false" pagex="114.998">
+     <FrameColor alpha="255" red="0" blue="0" green="0"/>
+     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+     <customproperties/>
+    </ComposerItem>
+   </ComposerFrame>
+   <customproperties/>
+  </ComposerHtml>
+  <ComposerHtml maxBreakDistance="10" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html>&#xd;&#xa;&#xd;&#xa;&lt;head>&#xd;&#xa;    &lt;style>&#xd;&#xa;        table {&#xd;&#xa;            border: 1px solid black;&#xd;&#xa;&#x9;&#x9;&#x9;border-collapse: collapse;&#xd;&#xa;            font-family: &quot;Ubuntu&quot;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        th {&#xd;&#xa;            border-bottom: 1px solid black;&#xd;&#xa;            padding: 5px;&#xd;&#xa;            font-size: 13px;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        td {&#xd;&#xa;            border-bottom: 1px solid black;&#xd;&#xa;            padding: 5px;&#xd;&#xa;            background-color: #f2f2f2;&#xd;&#xa;            font-size: 12px;&#xd;&#xa;            padding: 5px;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        .right {&#xd;&#xa;            text-align: right;&#xd;&#xa;            padding-right: 15px;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        .center {&#xd;&#xa;            text-align: center;&#xd;&#xa;        }&#xd;&#xa;    &lt;/style>&#xd;&#xa;&lt;/head>&#xd;&#xa;&#xd;&#xa;&lt;body>&#xd;&#xa;    &lt;table frame=&quot;box&quot; width=&quot;100%&quot;>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;th align=&quot;left&quot; width=&quot;40%&quot;>Landcover Type&lt;/th>&#xd;&#xa;            &lt;th align=&quot;right&quot; width=&quot;30%&quot;>Area affected (km)&lt;sup>2&lt;/sup>&lt;/th>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Settlement&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_settlement_affected')/100)%]&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Rice Field&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_rice_field_affected')/100)%]&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Plantation&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_plantation_affected')/100)%]&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Water Supply&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_water_supply_affected')/100)%]&#xd;&#xa;&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Forest&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_forest_affected')/100)%]&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;        &lt;tr>&#xd;&#xa;            &lt;td>&#xd;&#xa;                Other&#xd;&#xa;            &lt;/td>&#xd;&#xa;            &lt;td class=&quot;right&quot;>&#xd;&#xa;                [%floor(attribute( get_feature( @aggregation_summary_id , 'aggregation_id', 1), 'land_cover_other_affected')/100)%]&#xd;&#xa;            &lt;/td>&#xd;&#xa;        &lt;/tr>&#xd;&#xa;&#xd;&#xa;    &lt;/table>&#xd;&#xa;&lt;/body>&#xd;&#xa;&#xd;&#xa;&lt;/html>" stylesheetEnabled="false" stylesheet="">
+   <ComposerFrame sectionWidth="89.828" sectionHeight="50.8879" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+    <ComposerItem pagey="194.628" page="1" id="table-landcover" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="114.998" y="194.628" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="89.828" outlineWidth="0.3" excludeFromExports="0" uuid="{6e155438-cea0-4f10-aaac-63c711596c1d}" height="50.8879" itemRotation="0" frame="false" pagex="114.998">
+     <FrameColor alpha="255" red="0" blue="0" green="0"/>
+     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+     <customproperties/>
+    </ComposerItem>
+   </ComposerFrame>
+   <customproperties/>
+  </ComposerHtml>
+  <ComposerHtml maxBreakDistance="0" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html>&#xd;&#xa;&#x9;&lt;head>&#xd;&#xa;&#x9;&#x9;&lt;style>&#xd;&#xa;&#x9;&#x9;&#x9;table{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;border: 1px solid black;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;border-collapse: collapse;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;font-size:11px;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;font-family: &quot;Ubuntu&quot;;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;&#x9;th, td {&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;border: 1px solid black;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;padding:5px;&#xd;&#xa;                text-align: left;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;&#x9;.lv1{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;width:15.5%;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;background-color:#0F74BC;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align: center;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;.lv2{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;width:15.5%;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;background-color:#00ADEF;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align: center;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;.lv3{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;width:15.5%;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;background-color:#FFF004;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align: center;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;.lv4{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;width:15.5%;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;background-color:#FCB040;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align: center;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&#x9;.lv5{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;width:15.5%;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;background-color:#E32031;&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;text-align: center;&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#x9;&#x9;&#x9;.top{&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;vertical-align:top;&#xd;&#xa;&#x9;&#x9;&#x9;}&#xd;&#xa;&#x9;&#x9;&lt;/style>&#xd;&#xa;&#x9;&lt;/head>&#xd;&#xa;&#x9;&lt;body>&#xd;&#xa;&#x9;&#x9;&lt;table width=&quot;100%&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;tr style=&quot;font-size:12px&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td width=&quot;22.5%&quot;>Fallout Level&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th class=&quot;lv1&quot;>Very Low&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th class=&quot;lv2&quot;>Low&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th class=&quot;lv3&quot;>Moderate&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th class=&quot;lv4&quot;>High&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th class=&quot;lv5&quot;>Very High&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/tr>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;tr style=&quot;background-color:#f2f2f2&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;font-size:12px&quot;>Estimated People Affected&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th style=&quot;text-align: center&quot;>[% floor(inasafe_impact_analysis_field_value( 'population_very low_hazard_count')/100)*100%]&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th style=&quot;text-align: center&quot;>[% floor(inasafe_impact_analysis_field_value( 'population_low_hazard_count')/100)*100 %]&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th style=&quot;text-align: center&quot;>[% floor(inasafe_impact_analysis_field_value( 'population_medium_hazard_count')/100)*100 %]&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th style=&quot;text-align: center&quot;>[% floor(inasafe_impact_analysis_field_value( 'population_high_hazard_count')/100)*100 %]&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;th style=&quot;text-align: center&quot;>[% floor(inasafe_impact_analysis_field_value( 'population_very high_hazard_count')/100)*100 %]&lt;/th>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/tr>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;tr style=&quot;line-height:1.2&quot; class=&quot;top&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;font-size:12px&quot; >Potential Impact&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td >Impact on health (respiration), livestock, and contamination of water supply.&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td >Damage to transportation routes (e.g. airports, roads, railways); damage to critical infrastructur (e.g. electricity supply); damage to more vulnerable agricultural crops (e.g. rice fields)&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td >Damage to less vulnerable agricultural crops (e.g. tea plantations) and destruction of more vulnerable crops; destruction of critical infrastructure; cosmetic (non-structural) damage to buildings&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td >Dry loading on buildings causing structural damage but not collapse; Wet loading on buildings (i.e. ash loading + heavy rainfall) causing structural collapse. &lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td >Dry loading on buildings causing structural collapse.&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/tr>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;tr>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td>Ash Thickness Range (cm)&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;text-align: center&quot;>>0.01 - 0.1&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;text-align: center&quot;>>0.1 - 2&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;text-align: center&quot;>>2 - 5&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;text-align: center&quot;>>5 - 10&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&lt;td style=&quot;text-align: center&quot;>>10&lt;/td>&#xd;&#xa;&#x9;&#x9;&#x9;&lt;/tr>&#xd;&#xa;&#x9;&#x9;&lt;/table>&#xd;&#xa;&#x9;&lt;/body>&#xd;&#xa;&lt;/html>" stylesheetEnabled="false" stylesheet="">
+   <ComposerFrame sectionWidth="199.731" sectionHeight="59.76" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+    <ComposerItem pagey="58.4182" page="1" id="table-impact" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.97288" y="58.4182" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="199.731" outlineWidth="0.3" excludeFromExports="0" uuid="{ff6dafa2-c8b2-4af8-a613-505641fb281f}" height="59.808" itemRotation="0" frame="false" pagex="4.97288">
+     <FrameColor alpha="255" red="0" blue="0" green="0"/>
+     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+     <customproperties/>
+    </ComposerItem>
+   </ComposerFrame>
+   <customproperties/>
+  </ComposerHtml>
+  <ComposerHtml maxBreakDistance="10" contentMode="0" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="" stylesheetEnabled="false" stylesheet="">
+   <ComposerFrame sectionWidth="0" sectionHeight="0" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+    <ComposerItem pagey="72.6196" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="83.4427" y="72.6196" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="0.349133" outlineWidth="0.3" excludeFromExports="0" uuid="{f21bf350-ee72-40e7-ad38-489f9fd28e24}" height="1.0474" itemRotation="0" frame="false" pagex="83.4427">
+     <FrameColor alpha="255" red="0" blue="0" green="0"/>
+     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+     <customproperties/>
+    </ComposerItem>
+   </ComposerFrame>
+   <customproperties/>
+  </ComposerHtml>
+  <customproperties>
+   <property key="imageCropMarginBottom" value="0"/>
+   <property key="imageCropMarginLeft" value="0"/>
+   <property key="imageCropMarginRight" value="0"/>
+   <property key="imageCropMarginTop" value="0"/>
+   <property key="imageCropToContents" value="false"/>
+  </customproperties>
+ </Composition>
+</Composer>
