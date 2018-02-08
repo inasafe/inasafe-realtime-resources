@@ -93,15 +93,6 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Region: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="32.8646" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-41.6483" y="32.8646" visibility="1" zValue="80" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{d5826316-5f81-496b-8e3d-44b940e5d044}" height="6.665" itemRotation="0" frame="false" pagex="-41.6483">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
   <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Disclaimer" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,11,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
@@ -133,114 +124,6 @@
     <customproperties/>
    </ComposerItem>
   </ComposerShape>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Report Time: [%case &#xa;when hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))) > 24 &#xa;then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*60)), ' minute(s)')&#xa;end&#xa;%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="112.898" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.507" y="112.898" visibility="1" zValue="39" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8705" outlineWidth="0.3" excludeFromExports="0" uuid="{00c0e2aa-ec98-4e43-9917-31824063c32c}" height="7.2314" itemRotation="0" frame="false" pagex="-137.507">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Position: [% concat(floor(hazard_extra_keyword( 'volcano_longitude' )), '°',floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)%1*60), '&quot;')%] E, [% concat(floor(abs(hazard_extra_keyword( 'volcano_latitude' ))), '°',floor(abs(hazard_extra_keyword('volcano_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'volcano_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('volcano_latitude')) &lt; 0 then 'S'&#xa;else 'N'&#xa;end%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="87.9022" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.098" y="87.9022" visibility="1" zValue="38" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8705" outlineWidth="0.3" excludeFromExports="0" uuid="{947263be-e555-4141-9ad8-3e8e9cd001eb}" height="7.2314" itemRotation="0" frame="false" pagex="-156.098">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Alert level: [% hazard_extra_keyword( 'volcano_alert_level' )%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="122.883" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.486" y="122.883" visibility="1" zValue="37" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{2c6c5e52-39cd-4a39-b366-a80eb13ca026}" height="7.2314" itemRotation="0" frame="false" pagex="-137.486">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Report expires: " htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="117.872" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.453" y="117.872" visibility="1" zValue="36" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{0d896dd4-bd87-4945-b831-5a9f27d6438b}" height="7.2314" itemRotation="0" frame="false" pagex="-137.453">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Model duration:" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="107.876" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-137.48" y="107.876" visibility="1" zValue="35" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{9b6170d2-0189-441c-9eb9-bc449102004a}" height="7.2314" itemRotation="0" frame="false" pagex="-137.48">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Province: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="97.8871" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.077" y="97.8871" visibility="1" zValue="34" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{eaa6118b-5ee2-4005-a1b4-25b10a482ebf}" height="7.2314" itemRotation="0" frame="false" pagex="-156.077">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Eruption Column Height (asl): 5900 m" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="92.8761" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.045" y="92.8761" visibility="1" zValue="33" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{410c6f50-d6ec-48e5-a62b-7a161e6dffb1}" height="7.2314" itemRotation="0" frame="false" pagex="-156.045">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Volcano: [% hazard_extra_keyword('volcano_name') %]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="82.8798" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-156.071" y="82.8798" visibility="1" zValue="32" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="72.8168" outlineWidth="0.3" excludeFromExports="0" uuid="{fa88d0ff-24dc-46fd-b5f2-71b9d6d98717}" height="7.2314" itemRotation="0" frame="false" pagex="-156.071">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="The estimation does not include the potential impact of airborne volcanic ash on aviation services. Nearby airports may already be affected or become affected in future by ash fall on the ground or other hazards." htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="300.713" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="12.035" y="300.713" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="189.925" outlineWidth="0.3" excludeFromExports="0" uuid="{6a83d62b-e0cd-476d-bd14-430a16997b27}" height="8.7582" itemRotation="0" frame="false" pagex="12.035">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Event Time " htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="41.7459" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.871" y="41.7459" visibility="1" zValue="29" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{232191df-67be-484c-8592-902b89e0fe72}" height="6.665" itemRotation="0" frame="false" pagex="-222.871">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Eruption Column Height (a.s.l) - [% hazard_extra_keyword( 'volcano_eruption_height' ) + hazard_extra_keyword( 'volcano_height' ) %] m" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="46.8118" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="46.8118" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.165" outlineWidth="0.3" excludeFromExports="0" uuid="{a37da7b1-ae58-4b87-aeee-72d727fa6f43}" height="7.03725" itemRotation="0" frame="false" pagex="-222.828">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Alert Level: [% hazard_extra_keyword( 'volcano_alert_level' )%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="47.1841" page="1" id="report-alert-level" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="47.1841" visibility="1" zValue="27" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="84.876" outlineWidth="0.3" excludeFromExports="0" uuid="{7d00821a-0d02-4542-9593-e14357ff77da}" height="6.665" itemRotation="0" frame="false" pagex="-117.347">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
   <ComposerShape shapeType="1" cornerRadius="0">
    <symbol alpha="1" clip_to_extent="1" type="fill" name="">
     <layer pass="0" class="SimpleFill" locked="0">
@@ -275,15 +158,6 @@
    <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
    <ComposerItem pagey="284.919" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.93186" y="284.919" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="127.257" outlineWidth="0.3" excludeFromExports="0" uuid="{f41672bf-0fc3-4f00-bfd7-bcf11bcea493}" height="5" itemRotation="0" frame="false" pagex="6.93186">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Position : [% concat(floor(hazard_extra_keyword( 'volcano_longitude' )), '°',floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'volcano_longitude' )%1*60)%1*60), '&quot;')%] E, [% concat(floor(abs(hazard_extra_keyword( 'volcano_latitude' ))), '°',floor(abs(hazard_extra_keyword('volcano_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'volcano_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('volcano_latitude')) &lt; 0 then 'S'&#xa;else 'N'&#xa;end%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="41.8601" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="41.8601" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="84.655" outlineWidth="0.3" excludeFromExports="0" uuid="{dc04096d-c614-4552-ae28-5f5a692446cb}" height="6.665" itemRotation="0" frame="false" pagex="-117.347">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
@@ -345,33 +219,6 @@
    <LabelFont description="Ubuntu,14,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem pagey="51.2279" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9.81383" y="51.2279" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="190.032" outlineWidth="0.3" excludeFromExports="0" uuid="{57c34422-94e2-449e-a37e-eed522d9c0c4}" height="10.5957" itemRotation="0" frame="false" pagex="9.81383">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Region: [% hazard_extra_keyword( 'region' )%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="52.4075" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="52.4075" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.164" outlineWidth="0.3" excludeFromExports="0" uuid="{f5759d2a-8174-4dba-95c8-7b73ff7832c0}" height="6.665" itemRotation="0" frame="false" pagex="-222.828">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Elapsed time since event [%case &#xa;when hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))) > 24 &#xa;then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('volcano_eruption_event_time')))%1*60)), ' minute(s)')&#xa;end&#xa;%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="35.4478" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-117.347" y="35.4478" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="105.422" outlineWidth="0.3" excludeFromExports="0" uuid="{67c04ad7-c4f3-4bb1-9b18-3f3db4630f1e}" height="7.70595" itemRotation="0" frame="false" pagex="-117.347">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="-2" labelText="Volcano : [% hazard_extra_keyword('volcano_name') %]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,10,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="34.0029" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="-222.828" y="34.0029" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.165" outlineWidth="0.3" excludeFromExports="0" uuid="{493d0f1c-1b06-4af6-8667-62cc85114c9d}" height="10.5957" itemRotation="0" frame="false" pagex="-222.828">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
