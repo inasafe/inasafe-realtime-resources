@@ -1,6 +1,6 @@
 This folder contains template element for volcanic ash realtime
 
-**Template version 4.6**
+**Template version 4.7**
 
 This template uses this data:
 Analysis data:
