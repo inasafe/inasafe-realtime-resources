@@ -1,4 +1,4 @@
-<Composer title="flood 4.1" visible="1">
+<Composer title="cm flood" visible="1">
  <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
    <layer pass="0" class="SimpleFill" locked="0">
@@ -15,208 +15,223 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="32.7727" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/flood/people_affected.png" northOffset="0" pictureHeight="25.84" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="229.058" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="33.8252" y="229.058" visibility="1" zValue="35" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="32.7727" outlineWidth="0.3" excludeFromExports="0" uuid="{4f120563-eddb-490a-afa9-0799f17e83c9}" height="25.9183" itemRotation="0" frame="false" pagex="33.8252">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerPicture>
-  <ComposerLabel valign="32" marginX="1" marginY="0" labelText="Template version 4.2" htmlState="0" halign="2">
-   <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
-   <FontColor red="61" blue="221" green="178"/>
-   <ComposerItem pagey="287.736" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="162.833" y="287.736" visibility="1" zValue="34" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.8725" outlineWidth="0.3" excludeFromExports="0" uuid="{933536c9-9a43-4211-a29f-1d611f267489}" height="4.56091" itemRotation="0" frame="false" pagex="162.833">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="People Affected" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="223.16" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="34.8252" y="223.16" visibility="1" zValue="31" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="30.8749" outlineWidth="0.3" excludeFromExports="0" uuid="{821b8bef-113b-4f4b-8a06-c2c1873557ed}" height="8.0837" itemRotation="0" frame="false" pagex="34.8252">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Flood Depth (cm)" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,9,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="223.16" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.9503" y="223.16" visibility="1" zValue="30" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="30.8749" outlineWidth="0.3" excludeFromExports="0" uuid="{c68c872a-1f92-4d30-a746-93f2fa6b607d}" height="8.0837" itemRotation="0" frame="false" pagex="3.9503">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="62.7116" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="." northOffset="0" pictureHeight="14.8038" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="272.617" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="142.56" y="272.617" visibility="1" zValue="28" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="62.9959" outlineWidth="0.3" excludeFromExports="0" uuid="{f1dcc151-073d-4120-a2f0-ad5dd1bfe035}" height="14.8038" itemRotation="0" frame="false" pagex="142.56">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedSource expr="organisation_logo_path()" field="" active="true" useExpr="true"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerPicture>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Disclaimer" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
+  <ComposerLabel valign="128" marginX="6" marginY="0" labelText="Legend" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="264.654" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.9503" y="264.654" visibility="1" zValue="27" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.3478" outlineWidth="0.3" excludeFromExports="0" uuid="{bf23a329-9887-47cd-a05c-6c1616e78720}" height="6.2" itemRotation="0" frame="false" pagex="3.9503">
+   <ComposerItem pagey="209" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="0" y="209" visibility="1" zValue="29" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65" outlineWidth="0.3" excludeFromExports="0" uuid="{4fe8c165-614a-4513-a410-677967497c9c}" height="5" itemRotation="0" frame="false" pagex="0">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="264.904" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.9503" y="264.904" visibility="1" zValue="26" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="134.888" outlineWidth="0.3" excludeFromExports="0" uuid="{36a29177-cc01-4731-855b-4e25280da30b}" height="5.69912" itemRotation="0" frame="false" pagex="3.9503">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="This impact estimate is automatically generated and only takes into account the population affected by flood hazard in Jakarta. The estimate is based on flood hazard data from BPBD DKI Jakarta and population exposure data from the Population Agency, DKI Jakarta Province. Limitations in the estimates of flood hazard and population may result in significant misrepresentation of the on-the-surface situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified with other reliable information sources.&#xa;" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="270.854" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="2.9503" y="270.854" visibility="1" zValue="25" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="134.471" outlineWidth="0.3" excludeFromExports="0" uuid="{17f3573c-2d68-4890-b153-01a4afd655f9}" height="23.2677" itemRotation="0" frame="false" pagex="2.9503">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[%hazard_extra_keyword('flood_event_id')%]" htmlState="0" halign="4">
-   <LabelFont description="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="180.257" y="0" visibility="1" zValue="24" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.7421" outlineWidth="0.3" excludeFromExports="0" uuid="{5d616754-b8f4-4e69-9cf1-61a021facb2a}" height="6.2" itemRotation="0" frame="false" pagex="180.257">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="InaSAFE Analysis Result" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Contact" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="215.96" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="72.1615" y="215.96" visibility="1" zValue="23" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="48.5005" outlineWidth="0.3" excludeFromExports="0" uuid="{9d14a9cc-f886-4830-bde7-02e6a4031d32}" height="6.2" itemRotation="0" frame="false" pagex="72.1615">
+   <ComposerItem pagey="237.217" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="145" y="237.217" visibility="1" zValue="28" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65" outlineWidth="0.3" excludeFromExports="0" uuid="{c5bf7bc1-769c-4574-94c3-7c0733ecad90}" height="5" itemRotation="0" frame="false" pagex="145">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="216.461" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="71.1615" y="216.461" visibility="1" zValue="22" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="67.677" outlineWidth="0.3" excludeFromExports="0" uuid="{79953b28-716a-4af6-b7d4-1fb7b16721bd}" height="5.69912" itemRotation="0" frame="false" pagex="71.1615">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Legend" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="InaSAFE analysis results" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="215.704" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="4.9503" y="215.704" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.3478" outlineWidth="0.3" excludeFromExports="0" uuid="{59179a02-d9e8-43af-a220-dcc1a10e4b4c}" height="6.2" itemRotation="0" frame="false" pagex="4.9503">
+   <ComposerItem pagey="209" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="72.5" y="209" visibility="1" zValue="27" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65" outlineWidth="0.3" excludeFromExports="0" uuid="{cb6a56c2-40e5-4cb2-844c-317319cd2f0b}" height="5" itemRotation="0" frame="false" pagex="72.5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Supported by" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="264.654" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="143.323" y="264.654" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="33.2236" outlineWidth="0.3" excludeFromExports="0" uuid="{ad7733ec-fd96-4b2b-a444-44e85622c976}" height="6.2" itemRotation="0" frame="false" pagex="143.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Contact" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="242.017" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="143.323" y="242.017" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.3478" outlineWidth="0.3" excludeFromExports="0" uuid="{fc00a45c-794a-47cd-8393-a7ea65108e3c}" height="6.2" itemRotation="0" frame="false" pagex="143.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Data Source" htmlState="0" halign="1">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="255" blue="255" green="255"/>
-   <ComposerItem pagey="215.96" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="143.323" y="215.96" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="32.1028" outlineWidth="0.3" excludeFromExports="0" uuid="{3adde4f4-2ddb-4fff-a4b3-33792850f116}" height="6.2" itemRotation="0" frame="false" pagex="143.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="216.461" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="142.323" y="216.461" visibility="1" zValue="17" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="63.3821" outlineWidth="0.3" excludeFromExports="0" uuid="{e17d7627-997c-4a11-bcf9-585bdbf24100}" height="5.69912" itemRotation="0" frame="false" pagex="142.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Flood Data: BPBD DKI Jakarta - PetaBencana.id&#xa;Population : Population Agency DKI Jakarta Prov.&#xa;&#xa;" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="221.904" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="143.323" y="221.904" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="62.3821" outlineWidth="0.3" excludeFromExports="0" uuid="{b8e224e0-dec1-44cb-80e6-89918ac29fc6}" height="20.2975" itemRotation="0" frame="false" pagex="143.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="42.6196" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./inasafe-logo-white.svg" northOffset="0" pictureHeight="22.1246" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="188.875" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="159.935" y="188.875" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="45.6209" outlineWidth="0.3" excludeFromExports="0" uuid="{a7b05d85-6bde-43fe-9546-21b546068245}" height="22.1246" itemRotation="0" frame="false" pagex="159.935">
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="26.9688" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./logo/inasafe.svg" northOffset="0" pictureHeight="14" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="280" page="1" id="logo-inasafe" lastValidViewScaleFactor="-1" positionMode="8" positionLock="false" x="172" y="280" visibility="1" zValue="26" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="28" outlineWidth="0.3" excludeFromExports="0" uuid="{7abcaf45-df9b-4cc5-ba71-42874514ae58}" height="14" itemRotation="0" frame="false" pagex="172">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedSource expr="inasafe_logo_black_path()" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
+  <ComposerLabel valign="128" marginX="6" marginY="0" labelText="Supported by: Indonesian Government - Australian Government  - World Bank-GFDRR" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="285" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="0" y="285" visibility="1" zValue="25" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{a9a0693a-4d09-4865-8058-1abdb80b0a7d}" height="5" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="2" marginY="0" labelText="Data sources" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="209" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="145" y="209" visibility="1" zValue="24" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65" outlineWidth="0.3" excludeFromExports="0" uuid="{8a0bbb0d-0ab6-485b-aa72-237191552b19}" height="5" itemRotation="0" frame="false" pagex="145">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="6" marginY="0" labelText="Disclaimer" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="258" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="0" y="258" visibility="1" zValue="23" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{5df9de3e-97c7-4e97-9f20-5772e876799c}" height="5" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="64" blue="220" green="176"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="20.5063" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://github.com/inasafe/inasafe-realtime-resources/blob/master/flood/flood_depth.png?raw=true" northOffset="0" pictureHeight="20" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="220" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7" y="220" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25" outlineWidth="0.3" excludeFromExports="0" uuid="{fba243a1-8566-4075-b66b-caccbdb1f393}" height="20" itemRotation="0" frame="false" pagex="7">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Flood Impact Report" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,26,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="10" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="30.356" y="10" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="150" outlineWidth="0.3" excludeFromExports="0" uuid="{d3e9ad21-9fb6-4cb7-908a-908aca21c206}" height="20" itemRotation="0" frame="false" pagex="30.356">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="27" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://github.com/inasafe/inasafe-realtime-resources/blob/master/flood/people_affected.png?raw=true" northOffset="0" pictureHeight="21.2885" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="220" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="36" y="220" visibility="1" zValue="20" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="27" outlineWidth="0.3" excludeFromExports="0" uuid="{a710880f-0be3-49a0-9cf2-5b6c6ed7d5dc}" height="27" itemRotation="0" frame="false" pagex="36">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="32" marginX="6" marginY="0" labelText="Template version 4.3" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
+   <FontColor red="61" blue="221" green="178"/>
+   <ComposerItem pagey="291" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="291" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="50" outlineWidth="0.3" excludeFromExports="0" uuid="{8a3b134a-bf7b-46cc-9094-4f9ba82e2620}" height="4" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="0" columnCount="2" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
+   <styles>
+    <style marginBottom="2" name="title">
+     <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="group">
+     <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="subgroup">
+     <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1" name="symbol">
+     <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1" marginLeft="2" name="symbolLabel">
+     <styleFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="" name="(?)">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="" name="(?)">
+     <customproperties>
+      <property key="legend/title-label" value=""/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="216.535" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="32.7699" y="216.535" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="6" outlineWidth="0.3" excludeFromExports="0" uuid="{e2c6bf6e-3683-4efb-b9e8-be089adea118}" height="6" itemRotation="0" frame="false" pagex="32.7699">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="People Affected" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,8,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="214.16" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="35" y="214.16" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="30" outlineWidth="0.3" excludeFromExports="0" uuid="{ebadb192-8e98-4e0d-8f4f-b3bc4d6de1b9}" height="6" itemRotation="0" frame="false" pagex="35">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Flood Depth (cm)" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,8,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="214.16" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="5" y="214.16" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="30" outlineWidth="0.3" excludeFromExports="0" uuid="{a14a8a8a-2c46-4d28-9750-9999a6bb6647}" height="6" itemRotation="0" frame="false" pagex="5">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" legendFilterByAtlas="0" columnCount="2" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" resizeToContents="1" splitLayer="0" boxSpace="2" rasterBorder="1">
+   <styles>
+    <style marginBottom="2" name="title">
+     <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="group">
+     <styleFont description="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="2" name="subgroup">
+     <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1" name="symbol">
+     <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1" marginLeft="2" name="symbolLabel">
+     <styleFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="" name="(?)">
+     <customproperties>
+      <property key="legend/expressionFilter" value=""/>
+      <property key="legend/expressionFilterEnabled" value="true"/>
+      <property key="legend/title-style" value="hidden"/>
+      <property key="showFeatureCount" value="0"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="216.535" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="1.84225" y="216.535" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="4" outlineWidth="0.3" excludeFromExports="0" uuid="{6909b67a-07df-468e-8cfe-2d75ddc70253}" height="6" itemRotation="0" frame="false" pagex="1.84225">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Disclaimer" htmlState="0" halign="1">
+   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="255" blue="255" green="255"/>
+   <ComposerItem pagey="257.654" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.9503" y="257.654" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.3478" outlineWidth="0.3" excludeFromExports="0" uuid="{d777e541-22d7-458a-ba57-cf5e9491cb0e}" height="6.2" itemRotation="0" frame="false" pagex="3.9503">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[%hazard_extra_keyword('flood_event_id')%]" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,75,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="170" y="0" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="35" outlineWidth="0.3" excludeFromExports="0" uuid="{eef356d0-43fb-41eb-9924-af9d69df36f6}" height="6" itemRotation="0" frame="false" pagex="170">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Flood Data: BPBD DKI Jakarta - PetaBencana.id&#xa;Population : Population Agency DKI Jakarta Prov.&#xa;&#xa;" htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="214" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="145" y="214" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{4f265523-600b-46e2-852b-31e08c58c214}" height="20" itemRotation="0" frame="false" pagex="145">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
   <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Pusat Pengendalian dan Operasi (Pusdalops)&#xa;BPBD Provinsi DKI Jakarta&#xa;Gedung Dinas Teknis Lt. 5&#xa;Jl. Abdul Muis No. 66, Telp. 121" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="248.117" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="143.323" y="248.117" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="66.677" outlineWidth="0.3" excludeFromExports="0" uuid="{ed96e29d-7529-4289-9d56-20e6270bd731}" height="16.2862" itemRotation="0" frame="false" pagex="143.323">
+   <ComposerItem pagey="242" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="145" y="242" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="60" outlineWidth="0.3" excludeFromExports="0" uuid="{edb5460a-f3ad-4535-b81a-17f0a67dc975}" height="15" itemRotation="0" frame="false" pagex="145">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
@@ -238,46 +253,46 @@
      <prop k="style" v="solid"/>
     </layer>
    </symbol>
-   <ComposerItem pagey="28.576" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="28.576" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{46b24aac-8c27-40d0-8622-2e4268d61995}" height="1.918" itemRotation="0" frame="false" pagex="0">
+   <ComposerItem pagey="35" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="35" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{bc2ac6f1-9400-4c89-b2c2-9b46f4598517}" height="5" itemRotation="0" frame="false" pagex="0">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerShape>
   <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="12.3288" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="./Template/logo/simple_north_arrow.png" northOffset="0" pictureHeight="12.3288" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="185.561" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="28.2981" y="185.561" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.0542" outlineWidth="0.3" excludeFromExports="0" uuid="{8ad82869-480a-4c5f-a0d2-b85e653f019e}" height="12.3288" itemRotation="0" frame="false" pagex="28.2981">
+   <ComposerItem pagey="181.561" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="28.2981" y="181.561" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="13.0542" outlineWidth="0.3" excludeFromExports="0" uuid="{37a01bb2-bd91-4fb0-9534-da9250aea718}" height="12.3288" itemRotation="0" frame="false" pagex="28.2981">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedSource expr="north_arrow_path()" field="" active="true" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="2" segmentMillimeters="26.4726" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="5000" units="1" labelBarSpace="3" outlineWidth="0.5" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
+  <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="2" segmentMillimeters="24.9912" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="5000" units="1" labelBarSpace="3" outlineWidth="0.5" numSegmentsLeft="0" maxBarWidth="150" height="2" boxContentSpace="1" mapId="0" unitLabel="km">
    <scaleBarFont description="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0" style=""/>
    <fillColor alpha="255" red="0" blue="0" green="0"/>
    <fillColor2 alpha="255" red="255" blue="255" green="255"/>
    <strokeColor alpha="255" red="0" blue="0" green="0"/>
    <textColor alpha="255" red="0" blue="0" green="0"/>
-   <ComposerItem pagey="197.89" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.15708" y="197.89" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="62.8952" outlineWidth="0.3" excludeFromExports="0" uuid="{eb33fc64-b86a-4c69-b97a-1d8461b2c920}" height="13.1104" itemRotation="0" frame="false" pagex="5.15708">
+   <ComposerItem pagey="193.89" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.15708" y="193.89" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="59.9323" outlineWidth="0.3" excludeFromExports="0" uuid="{ca3a6efb-6787-4acc-816e-1845ef847d9b}" height="13.1104" itemRotation="0" frame="false" pagex="5.15708">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerScaleBar>
-  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Based on Flood [%beautify_date(hazard_extra_keyword('flood_event_time'))%] [%beautify_time(hazard_extra_keyword('flood_event_time'))%]" htmlState="0" halign="4">
-   <LabelFont description="MS Shell Dlg 2,9,-1,5,50,0,0,0,0,0" style=""/>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Based on flood [%beautify_date(hazard_extra_keyword('flood_event_time'))%] [%beautify_time(hazard_extra_keyword('flood_event_time'))%]" htmlState="0" halign="4">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="20.1563" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="53.4671" y="20.1563" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="103.778" outlineWidth="0.3" excludeFromExports="0" uuid="{3d13c4ec-ab21-489c-aea3-6c11d124064f}" height="6.2" itemRotation="0" frame="false" pagex="53.4671">
+   <ComposerItem pagey="28" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="45" y="28" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="120" outlineWidth="0.3" excludeFromExports="0" uuid="{e01a6d28-f69f-4cc0-8bf3-509c8e67fa95}" height="6" itemRotation="0" frame="false" pagex="45">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
   <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="0" previewMode="Cache" drawCanvasItems="true">
-   <Extent ymin="-6.3834243814310847" xmin="106.65878135568502216" ymax="-6.08480713773811921" xmax="106.99879441478492481"/>
+   <Extent ymin="-6.37468954553915523" xmin="106.65799549021176063" ymax="-6.08712708218750453" xmax="107.01744856940132422"/>
    <LayerSet/>
    <Grid/>
-   <ComposerMapGrid rightAnnotationDirection="2" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="2" showAnnotation="1" topFrameDivisions="0" uuid="{926c33ad-a06b-4038-8534-5122ac029b5b}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="3" annotationFontColor="0,0,0,255" intervalX="0.10000000000000001" gridFrameSideFlags="15" intervalY="0.10000000000000001" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="2" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="1" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+   <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{926c33ad-a06b-4038-8534-5122ac029b5b}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="3" annotationFontColor="0,0,0,255" intervalX="0.10000000000000001" gridFrameSideFlags="15" intervalY="0.10000000000000001" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="2" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="1" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
     <lineStyle>
      <symbol alpha="1" clip_to_extent="1" type="line" name="">
       <layer pass="0" class="SimpleLine" locked="0">
@@ -336,22 +351,22 @@
     <annotationFontProperties description="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="35" page="1" id="impact-map" lastValidViewScaleFactor="6.28571" positionMode="0" positionLock="false" x="5.15708" y="35" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200.398" outlineWidth="0.3" excludeFromExports="0" uuid="{1e3d0668-b2f7-4a97-b53a-53498fd14cda}" height="176" itemRotation="0" frame="true" pagex="5.15708">
+   <ComposerItem pagey="44" page="1" id="" lastValidViewScaleFactor="1.57143" positionMode="1" positionLock="false" x="5" y="44" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{53deb604-5adc-4b27-a1c7-6c9ee764587d}" height="160" itemRotation="0" frame="true" pagex="5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerMap>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="15.2618" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/common/bnpb.png" northOffset="0" pictureHeight="20.4812" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="5.75635" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="170.284" y="5.75635" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="19.9469" outlineWidth="0.3" excludeFromExports="0" uuid="{427d7c11-39e9-4d1b-be05-da3cd2f5d6be}" height="20.4812" itemRotation="0" frame="false" pagex="170.284">
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="19.3742" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/common/bnpb.png" northOffset="0" pictureHeight="26" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="182" y="9" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{09f3ea8f-6188-4e31-8675-cd168cb6ef2f}" height="26" itemRotation="0" frame="false" pagex="182">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="18.1659" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/flood/logo-dki.png" northOffset="0" pictureHeight="19.3285" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="5.91604" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="20.6593" y="5.91604" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="18.1659" outlineWidth="0.3" excludeFromExports="0" uuid="{546ac6a5-ea4c-4ebf-9deb-a5ee814661d8}" height="22.4403" itemRotation="0" frame="false" pagex="20.6593">
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="20" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/flood/logo-dki.png" northOffset="0" pictureHeight="21.28" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="8" y="9" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="20" outlineWidth="0.3" excludeFromExports="0" uuid="{2fe5316a-ebf9-4aca-8444-d91ae6e104f7}" height="25" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
@@ -359,100 +374,26 @@
    </ComposerItem>
   </ComposerPicture>
   <ComposerLabel valign="128" marginX="1" marginY="1" labelText="THE GOVERNMENT OF DKI JAKARTA PROVINCE&#xa;REGIONAL DISASTER MANAGEMENT AGENCY" htmlState="0" halign="4">
-   <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
+   <LabelFont description="Ubuntu,10,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="4.91604" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="61.6932" y="4.91604" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="87.3257" outlineWidth="0.3" excludeFromExports="0" uuid="{c08f411e-3c3a-4426-8990-dcd073110302}" height="10.0809" itemRotation="0" frame="false" pagex="61.6932">
+   <ComposerItem pagey="3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="60" y="3" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="90" outlineWidth="0.3" excludeFromExports="0" uuid="{3ecd7468-bfd9-41a9-b5e3-6e8cee617176}" height="10" itemRotation="0" frame="false" pagex="60">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="FLOOD REPORT" htmlState="0" halign="4">
-   <LabelFont description="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0" style=""/>
+  <ComposerLabel valign="32" marginX="6" marginY="1" labelText="This impact estimate is automatically generated and only takes into account the population affected by flood hazard in Jakarta. The estimate is based on flood hazard data from BPBD DKI Jakarta and population exposure data from the Population Agency, DKI Jakarta Province. Limitations in the estimates of flood hazard and population may result in significant misrepresentation of the on-the-surface situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified with other reliable information sources.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
+   <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="15.1362" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="8.82308" y="15.1362" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="193.066" outlineWidth="0.3" excludeFromExports="0" uuid="{dc8fbf1d-6fec-4284-bc6f-c5ba4c5b4c79}" height="6.2" itemRotation="0" frame="false" pagex="8.82308">
+   <ComposerItem pagey="262.516" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="262.516" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.1" excludeFromExports="0" uuid="{6992ec44-51e3-4c9e-b455-c30ad5c1852e}" height="35" itemRotation="0" frame="false" pagex="0">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="216.461" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5.15708" y="216.461" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="62.4513" outlineWidth="0.3" excludeFromExports="0" uuid="{1d9b6b59-a4f8-47d6-a2eb-0ac7b51ebda8}" height="5.69912" itemRotation="0" frame="false" pagex="5.15708">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="242.518" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="142.323" y="242.518" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="63.2329" outlineWidth="0.3" excludeFromExports="0" uuid="{9e1915e3-943f-40b9-a55e-73784ed90bb3}" height="5.69912" itemRotation="0" frame="false" pagex="142.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerShape shapeType="1" cornerRadius="0">
-   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
-    <layer pass="0" class="SimpleFill" locked="0">
-     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="color" v="61,178,221,255"/>
-     <prop k="joinstyle" v="bevel"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="0,0,0,0"/>
-     <prop k="outline_style" v="solid"/>
-     <prop k="outline_width" v="0"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
-    </layer>
-   </symbol>
-   <ComposerItem pagey="264.904" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="142.323" y="264.904" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="63.2329" outlineWidth="0.3" excludeFromExports="0" uuid="{7e586345-d722-42dd-8ea7-717cfb14cbc9}" height="5.69912" itemRotation="0" frame="false" pagex="142.323">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerShape>
-  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="28.7482" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="https://raw.githubusercontent.com/inasafe/inasafe-realtime-resources/master/flood/flood_depth.png" northOffset="0" pictureHeight="28.0384" mapId="-1" anchorPoint="0">
-   <ComposerItem pagey="228.144" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.27998" y="228.144" visibility="1" zValue="1" background="false" transparency="15" frameJoinStyle="miter" blendMode="0" width="28.7482" outlineWidth="0.3" excludeFromExports="0" uuid="{2394d157-d0c6-4e99-9479-336856207892}" height="29.2756" itemRotation="0" frame="false" pagex="3.27998">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerPicture>
-  <ComposerHtml maxBreakDistance="10" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html lang=&quot;en&quot;>&#xd;&#xa;&#xd;&#xa;&lt;head>&#xd;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1252&quot;>&#xd;&#xa;    &lt;style type=&quot;text/css&quot;>&#xd;&#xa;        body {&#xd;&#xa;            margin-left: 10px;&#xd;&#xa;            margin-right: 0px;&#xd;&#xa;            font-family: 'Ubuntu';&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        th {&#xd;&#xa;            text-align: left;&#xd;&#xa;            background-color: #bbe5f2&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        table {&#xd;&#xa;            font-size: 10px;&#xd;&#xa;            max-width: 100%;&#xd;&#xa;            background-color: transparent;&#xd;&#xa;            width: 100%;&#xd;&#xa;        }&#xd;&#xa;        .table-striped > tbody > tr:nth-child(odd) > td, &#xd;&#xa;        .table-striped > tbody > tr:nth-child(odd) { &#xd;&#xa;            background-color: #f9f9f9; &#xd;&#xa;        }&#xd;&#xa;        tr, td {&#xd;&#xa;            padding: 2px;&#xd;&#xa;            line-height: 1.3;&#xd;&#xa;            vertical-align: top;&#xd;&#xa;            border-top: 1px solid #ddd;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        h5 {&#xd;&#xa;            font-weight: bold;&#xd;&#xa;            margin-top: 0;&#xd;&#xa;            margin-right: -15px;&#xd;&#xa;            margin-left: -15px;&#xd;&#xa;            padding-left: 20px;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        .info,&#xd;&#xa;        caption {&#xd;&#xa;            color: #4f81bd;&#xd;&#xa;            line-height: 1;&#xd;&#xa;        }&#xd;&#xa;        .text-right {&#xd;&#xa;            text-align: right;  &#xd;&#xa;        }&#xd;&#xa;    &lt;/style>&#xd;&#xa;&lt;/head>&#xd;&#xa;&#xd;&#xa;&lt;body>&#xd;&#xa;    &lt;div class=&quot;container&quot;>&#xd;&#xa;        &lt;table class=&quot;table-striped&quot;>&#xd;&#xa;            &lt;tbody>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Total affected population (people)&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'total_affected'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Estimates of IDP (people)&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'displaced'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;th colspan=&quot;2&quot;>Relief items to be provided weekly :&lt;/th>&#xd;&#xa;&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Rice [kg]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'minimum_needs__rice'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Drinking Water [l]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Clean Water [l]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'minimum_needs__clean_water'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Family Kits&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'minimum_needs__family_kits'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;th colspan=&quot;2&quot;>Relief items to be provided single :&lt;/th>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Toilets&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>[%floor(inasafe_analysis_summary_field_value( 'minimum_needs__toilets'))%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;            &lt;/tbody>&#xd;&#xa;        &lt;/table>&#xd;&#xa;    &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;/body>&#xd;&#xa;&#xd;&#xa;&lt;/html>" stylesheetEnabled="false" stylesheet="">
-   <ComposerFrame sectionWidth="70.142" sectionHeight="44.4" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-    <ComposerItem pagey="219.954" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="68.696" y="219.954" visibility="1" zValue="33" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70.142" outlineWidth="0.3" excludeFromExports="0" uuid="{36a4093c-8e1e-43f1-8be3-0afe64c44902}" height="45.131" itemRotation="0" frame="false" pagex="68.696">
+  <ComposerHtml maxBreakDistance="10" contentMode="1" resizeMode="0" url="" useSmartBreaks="true" evaluateExpressions="true" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html lang=&quot;en&quot;>&#xd;&#xa;&#xd;&#xa;&lt;head>&#xd;&#xa;    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1252&quot;>&#xd;&#xa;    &lt;style type=&quot;text/css&quot;>&#xd;&#xa;        body {&#xd;&#xa;            margin-left: 10px;&#xd;&#xa;            margin-right: 0px;&#xd;&#xa;            font-family: 'Ubuntu';&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        th {&#xd;&#xa;            text-align: left;&#xd;&#xa;            background-color: #bbe5f2&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        table {&#xd;&#xa;            font-size: 10px;&#xd;&#xa;            max-width: 100%;&#xd;&#xa;            background-color: transparent;&#xd;&#xa;            width: 100%;&#xd;&#xa;        }&#xd;&#xa;        .table-striped > tbody > tr:nth-child(odd) > td, &#xd;&#xa;        .table-striped > tbody > tr:nth-child(odd) { &#xd;&#xa;            background-color: #f9f9f9; &#xd;&#xa;        }&#xd;&#xa;        tr, td {&#xd;&#xa;            padding: 2px;&#xd;&#xa;            line-height: 1.3;&#xd;&#xa;            vertical-align: top;&#xd;&#xa;            border-top: 1px solid #ddd;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        h5 {&#xd;&#xa;            font-weight: bold;&#xd;&#xa;            margin-top: 0;&#xd;&#xa;            margin-right: -15px;&#xd;&#xa;            margin-left: -15px;&#xd;&#xa;            padding-left: 20px;&#xd;&#xa;        }&#xd;&#xa;        &#xd;&#xa;        .info,&#xd;&#xa;        caption {&#xd;&#xa;            color: #4f81bd;&#xd;&#xa;            line-height: 1;&#xd;&#xa;        }&#xd;&#xa;        .text-right {&#xd;&#xa;            text-align: right;  &#xd;&#xa;        }&#xd;&#xa;    &lt;/style>&#xd;&#xa;&lt;/head>&#xd;&#xa;&#xd;&#xa;&lt;body>&#xd;&#xa;    &lt;div class=&quot;container&quot;>&#xd;&#xa;        &lt;table class=&quot;table-striped&quot;>&#xd;&#xa;            &lt;tbody>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Estimated number of people affected&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'total_affected') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'total_affected')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'total_affected') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'total_affected')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'total_affected') > 100000 then ceil(inasafe_analysis_summary_field_value( 'total_affected')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Estimated displaced people&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'displaced') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'displaced')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'displaced') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'displaced')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'displaced') > 100000 then ceil(inasafe_analysis_summary_field_value( 'displaced')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;th colspan=&quot;2&quot;>Relief items to be provided weekly :&lt;/th>&#xd;&#xa;&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Rice [kg]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__rice') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__rice')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__rice') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__rice')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__rice') > 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__rice')/1000)*1000&#xd;&#xa;end%]&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Drinking Water [l]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water') > 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__drinking_water')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Clean Water [l]&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__clean_water') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__clean_water')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__clean_water') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__clean_water')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__clean_water') > 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__clean_water')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Family Kits&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__family_kits') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__family_kits')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__family_kits') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__family_kits')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__family_kits') > 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__family_kits')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;th colspan=&quot;2&quot;>Relief items to be provided single :&lt;/th>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;                &lt;tr>&#xd;&#xa;                    &lt;td>Toilets&lt;/td>&#xd;&#xa;                    &lt;td class=&quot;text-right&quot;>&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;[%case &#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__toilets') &lt; 1000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__toilets')/10)*10&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__toilets') &lt; 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__toilets')/100)*100&#xd;&#xa;when inasafe_analysis_summary_field_value( 'minimum_needs__toilets') > 100000 then ceil(inasafe_analysis_summary_field_value( 'minimum_needs__toilets')/1000)*1000&#xd;&#xa;end%]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/td>&#xd;&#xa;                &lt;/tr>&#xd;&#xa;            &lt;/tbody>&#xd;&#xa;        &lt;/table>&#xd;&#xa;    &lt;/div>&#xd;&#xa;&#xd;&#xa;&lt;/body>&#xd;&#xa;&#xd;&#xa;&lt;/html>" stylesheetEnabled="false" stylesheet="">
+   <ComposerFrame sectionWidth="67" sectionHeight="47" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+    <ComposerItem pagey="212" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="70" y="212" visibility="1" zValue="18" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="67" outlineWidth="0.3" excludeFromExports="0" uuid="{6b58fb6b-639e-44c2-977d-4b9dee711f20}" height="47" itemRotation="0" frame="false" pagex="70">
      <FrameColor alpha="255" red="0" blue="0" green="0"/>
      <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
      <customproperties/>
