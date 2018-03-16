@@ -102,7 +102,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerLabel valign="32" marginX="6" marginY="0" labelText="Template version 4.5" htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="6" marginY="0" labelText="Template version 4.5.1" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="61" blue="221" green="178"/>
    <ComposerItem pagey="291" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="291" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="50" outlineWidth="0.3" excludeFromExports="0" uuid="{f37ba7ac-0f3c-4e62-9356-c291e7a2b6b3}" height="4" itemRotation="0" frame="false" pagex="0">
@@ -351,7 +351,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="44" page="1" id="" lastValidViewScaleFactor="7.55906" positionMode="1" positionLock="false" x="5" y="44" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{b9c2fa8e-5d75-41b4-8be5-ea83c6d77490}" height="160" itemRotation="0" frame="true" pagex="5">
+   <ComposerItem pagey="44" page="1" id="impact-map" lastValidViewScaleFactor="3.14286" positionMode="1" positionLock="false" x="5" y="44" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{b9c2fa8e-5d75-41b4-8be5-ea83c6d77490}" height="160" itemRotation="0" frame="true" pagex="5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
