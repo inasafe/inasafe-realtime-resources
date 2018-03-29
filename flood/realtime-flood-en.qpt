@@ -15,6 +15,15 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
+  <ComposerLabel valign="32" marginX="0" marginY="0" labelText="&lt;p>&lt;b>Flood Event ID [%hazard_extra_keyword('flood_event_id')%]&lt;/b>&lt;/p>" htmlState="2" halign="2">
+   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="94" y="2" visibility="1" zValue="72" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="114" outlineWidth="0.3" excludeFromExports="0" uuid="{46a167ab-8816-4cbc-89b0-01f0e0a01f2e}" height="6" itemRotation="0" frame="false" pagex="94">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerLabel>
   <ComposerLabel valign="128" marginX="6" marginY="0" labelText="Legend" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
@@ -102,7 +111,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerLabel valign="32" marginX="6" marginY="0" labelText="Template version 4.5.1" htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="6" marginY="0" labelText="Template version 4.5.2" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="61" blue="221" green="178"/>
    <ComposerItem pagey="291" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="291" visibility="1" zValue="19" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="50" outlineWidth="0.3" excludeFromExports="0" uuid="{f37ba7ac-0f3c-4e62-9356-c291e7a2b6b3}" height="4" itemRotation="0" frame="false" pagex="0">
@@ -205,15 +214,6 @@
    <LabelFont description="MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="255" blue="255" green="255"/>
    <ComposerItem pagey="257.654" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.9503" y="257.654" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="25.3478" outlineWidth="0.3" excludeFromExports="0" uuid="{b177f388-72f3-440d-9823-292dde1fbf34}" height="6.2" itemRotation="0" frame="false" pagex="3.9503">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="[%hazard_extra_keyword('flood_event_id')%]" htmlState="0" halign="1">
-   <LabelFont description="Ubuntu,8,-1,5,75,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="170" y="0" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="35" outlineWidth="0.3" excludeFromExports="0" uuid="{2a8c01e0-1622-4862-b9dd-1f4f3448717a}" height="6" itemRotation="0" frame="false" pagex="170">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
@@ -351,7 +351,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,7,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="44" page="1" id="impact-map" lastValidViewScaleFactor="3.14286" positionMode="1" positionLock="false" x="5" y="44" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{b9c2fa8e-5d75-41b4-8be5-ea83c6d77490}" height="160" itemRotation="0" frame="true" pagex="5">
+   <ComposerItem pagey="44" page="1" id="impact-map" lastValidViewScaleFactor="3.21429" positionMode="1" positionLock="false" x="5" y="44" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="200" outlineWidth="0.3" excludeFromExports="0" uuid="{b9c2fa8e-5d75-41b4-8be5-ea83c6d77490}" height="160" itemRotation="0" frame="true" pagex="5">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
