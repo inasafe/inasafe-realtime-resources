@@ -1,6 +1,6 @@
 This folder contains template element for earthquake realtime
 
-**Template version 4.3**
+**Template version 4.4**
 
 This template uses this data:
 Analysis data:
