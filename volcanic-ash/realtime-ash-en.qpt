@@ -18,7 +18,7 @@
   <ComposerLabel valign="32" marginX="0" marginY="0" labelText="&lt;p>&lt;b>Eruption Event ID [% hazard_extra_keyword('volcano_event_id')%]&lt;/b>&lt;/p>" htmlState="2" halign="2">
    <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="94" y="2" visibility="1" zValue="43" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="114" outlineWidth="0.3" excludeFromExports="0" uuid="{53e1692f-624a-4180-9975-44946d77f3c1}" height="6" itemRotation="0" frame="false" pagex="94">
+   <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="94" y="2" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="114" outlineWidth="0.3" excludeFromExports="0" uuid="{53e1692f-624a-4180-9975-44946d77f3c1}" height="6" itemRotation="0" frame="false" pagex="94">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
@@ -150,7 +150,7 @@
   <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Potential impact at each fallout level" htmlState="0" halign="4">
    <LabelFont description="Ubuntu,16,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="59" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="59" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{b71ddebe-254b-4e54-938e-1cf323c2079b}" height="10" itemRotation="0" frame="false" pagex="0">
+   <ComposerItem pagey="58" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="58" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{b71ddebe-254b-4e54-938e-1cf323c2079b}" height="10" itemRotation="0" frame="false" pagex="0">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
@@ -250,7 +250,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="120" page="1" id="impact-map" lastValidViewScaleFactor="3.33851" positionMode="0" positionLock="false" x="8" y="120" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{49244098-f7d7-4eb3-bbd4-08ceac212cd1}" height="89" itemRotation="0" frame="false" pagex="8">
+   <ComposerItem pagey="120" page="1" id="impact-map" lastValidViewScaleFactor="2.91925" positionMode="0" positionLock="false" x="8" y="120" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{49244098-f7d7-4eb3-bbd4-08ceac212cd1}" height="89" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="false" useExpr="true"/>
@@ -330,7 +330,7 @@
     </symbol>
    </ComposerMapOverview>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="215" page="1" id="map-overall" lastValidViewScaleFactor="3.28819" positionMode="0" positionLock="false" x="8" y="215" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{793d9f69-e270-4dbb-90ae-c42178ed7358}" height="27" itemRotation="0" frame="true" pagex="8">
+   <ComposerItem pagey="215" page="1" id="map-overall" lastValidViewScaleFactor="2.34783" positionMode="0" positionLock="false" x="8" y="215" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{793d9f69-e270-4dbb-90ae-c42178ed7358}" height="27" itemRotation="0" frame="true" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <customproperties/>

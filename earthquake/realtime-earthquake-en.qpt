@@ -15,16 +15,7 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
-  <ComposerLabel valign="32" marginX="0" marginY="0" labelText="&lt;p>&lt;b>Shake ID [% hazard_extra_keyword('earthquake_event_id')%]&lt;/b>&lt;/p>" htmlState="2" halign="2">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="2" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="94" y="2" visibility="1" zValue="22" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="114" outlineWidth="0.3" excludeFromExports="0" uuid="{205f1401-b59e-4d10-a5b1-9a27bd05963f}" height="6" itemRotation="0" frame="false" pagex="94">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
-  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Template version 4.4" htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Template version 4.5" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="64" blue="220" green="176"/>
    <ComposerItem pagey="290" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="290" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{0050d28a-0c30-480d-a555-2b15a0e93648}" height="6" itemRotation="0" frame="false" pagex="0">
@@ -59,7 +50,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerPicture>
-  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;style>&#xa;p {&#xa;&#x9;line-height:0.5em;&#xa;&#x9;font-family: Ubuntu;&#xa;&#x9;font-size: 11 pt;&#xa;&#x9;margin-left: 7mm;&#xa;&#x9;margin-right: 1mm;&#xa;}&#xa;&lt;/style>&#xa;&#xa;&lt;p>M [% hazard_extra_keyword( 'earthquake_magnitude') %] [% format_date(to_date(left(hazard_extra_keyword( 'earthquake_event_time'),10)),'dd-MMM-yy')%] [%substr(hazard_extra_keyword( 'earthquake_event_time'),strpos(hazard_extra_keyword( 'earthquake_event_time'),'T')+1, 5)%]&lt;/p>&#xa;&#xa;&lt;p>Longitude [% concat(floor(hazard_extra_keyword( 'earthquake_longitude' )), '°',floor((hazard_extra_keyword( 'earthquake_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'earthquake_longitude' )%1*60)%1*60), '&quot;')%]E Latitude  [% concat(floor(abs(hazard_extra_keyword( 'earthquake_latitude' ))), '°',floor(abs(hazard_extra_keyword('earthquake_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'earthquake_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('earthquake_latitude')) &lt; 0 then 'S' else 'N' end%] Depth [% @hazard_keywords__extra_keywords__earthquake_depth %] km &#xa;&lt;/p>&#xa;&#xa;&lt;p>Located [%floor(distance_to_nearest_place()/1000)%] km, [% floor(bearing_to_nearest_place()) %]° [% direction_to_nearest_place()%] of [% name_of_the_nearest_place() %]&lt;/p>&#xa;&#xa;&lt;p> ShakeMap source [% hazard_extra_keyword( 'earthquake_source')%]&lt;/p>&#xa;" htmlState="2" halign="1">
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="&lt;style>&#xa;p {&#xa;&#x9;line-height:0.5em;&#xa;&#x9;font-family: Ubuntu;&#xa;&#x9;font-size: 11 pt;&#xa;&#x9;margin-left: 7mm;&#xa;&#x9;margin-right: 1mm;&#xa;}&#xa;&lt;/style>&#xa;&#xa;&lt;p>&lt;b>Shake ID [% hazard_extra_keyword('earthquake_event_id')%]&lt;/b>&lt;/p>&#xa;&lt;p> ShakeMap source [% title(hazard_extra_keyword( 'earthquake_source'))%]&lt;/p>&#xa;&lt;p>M [% hazard_extra_keyword( 'earthquake_magnitude')  %] [%left(hazard_extra_keyword( 'earthquake_event_time'),10)%] [%substr(hazard_extra_keyword( 'earthquake_event_time'),strpos(hazard_extra_keyword( 'earthquake_event_time'),'T')+1, 5)%]&lt;/p>&#xa;&#xa;&lt;p>Longitude [% concat(floor(hazard_extra_keyword( 'earthquake_longitude' )), '°',floor((hazard_extra_keyword( 'earthquake_longitude' )%1*60)),'`' , floor((hazard_extra_keyword( 'earthquake_longitude' )%1*60)%1*60), '&quot;')%]E Latitude [% concat(floor(abs(hazard_extra_keyword( 'earthquake_latitude' ))), '°',floor(abs(hazard_extra_keyword('earthquake_latitude' )%1*60)),'`' , floor(abs(hazard_extra_keyword( 'earthquake_latitude' )%1*60)%1*60), '&quot;')%] [%case when to_real(hazard_extra_keyword('earthquake_latitude')) &lt; 0 then 'S' else 'N' end%] Depth [% @hazard_keywords__extra_keywords__earthquake_depth %] km &#xa;&lt;/p>&#xa;&#xa;&lt;p>Located [%floor(distance_to_nearest_place()/1000)%] km, [% floor(bearing_to_nearest_place()) %]° [% direction_to_nearest_place()%] [% name_of_the_nearest_place() %]&lt;/p>" htmlState="2" halign="1">
    <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem pagey="41" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="41" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="148.178" outlineWidth="0.3" excludeFromExports="0" uuid="{875e269e-b516-4461-afae-2b2f7f20cd50}" height="29" itemRotation="0" frame="false" pagex="0">
@@ -182,7 +173,7 @@
     </symbol>
    </ComposerMapOverview>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="3.28882" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{708b1768-2614-4dc5-ac13-024a0271e02c}" height="25" itemRotation="0" frame="true" pagex="8">
+   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="3.21429" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{708b1768-2614-4dc5-ac13-024a0271e02c}" height="25" itemRotation="0" frame="true" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="166" blue="227" green="206"/>
     <customproperties/>
@@ -239,14 +230,14 @@
   <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Estimated number of people exposed by MMI level" htmlState="0" halign="4">
    <LabelFont description="Ubuntu,16,-1,5,75,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="65" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="0" y="65" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{cb80591b-b25d-4c0d-87d0-c18fdd9f3725}" height="10" itemRotation="0" frame="false" pagex="0">
+   <ComposerItem pagey="67" page="1" id="" lastValidViewScaleFactor="-1" positionMode="1" positionLock="false" x="0" y="67" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{cb80591b-b25d-4c0d-87d0-c18fdd9f3725}" height="10" itemRotation="0" frame="false" pagex="0">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
   <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="ash-impact-map" id="2" previewMode="Render" drawCanvasItems="true">
-   <Extent ymin="-9.53689157997784065" xmin="128.19144445969683943" ymax="-5.36670996146395396" xmax="132.82497959137893417"/>
+   <Extent ymin="-9.53689157997784065" xmin="128.19144445969683943" ymax="-5.36670996146395574" xmax="132.82497959137893417"/>
    <LayerSet/>
    <Grid/>
    <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{5a6a4ca8-27ad-4080-9590-e5aad8b046e3}" leftAnnotationDirection="2" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.5" gridFrameSideFlags="15" intervalY="0.5" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="0" gridFramePenThickness="0" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="1" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="2">
@@ -308,7 +299,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="3.28882" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{1efb4c35-8466-423f-a8d9-780df05fdf86}" height="90" itemRotation="0" frame="false" pagex="8">
+   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="3.21429" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{1efb4c35-8466-423f-a8d9-780df05fdf86}" height="90" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="false" useExpr="true"/>
