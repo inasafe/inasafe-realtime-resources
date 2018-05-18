@@ -69,7 +69,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" marginX="6" marginY="1" labelText="The impact estimation is automatically generated and only takes into account the population, cities and land cover affected by different levels of volcanic ash fallout at surface level. The estimation does not include the potential impact of airborne volcanic ash on aviation services. Nearby airports may already be affected or become affected in future by ash fall on the ground or other hazards. The estimate is based on volcanic ash fallout data from Badan Geologi, population count data derived by DMInnovation from worldpop.org.uk, place information and land cover classification data provided by Indonesian Geospatial Portal at http://portal.ina-sdi.or.id and software developed by BNPB. Limitation in the estimates of surface fallout, population and places datasets may result in a significant misrepresentation of the on-the-surface situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="6" marginY="1" labelText="The impact estimation is automatically generated and only takes into account the population, cities and land cover in Indonesia affected by different levels of volcanic ash fallout at surface level. The estimation does not include the potential impact of airborne volcanic ash on aviation services. Nearby airports may already be affected or become affected in future by ash fall on the ground or other hazards. The estimate is based on volcanic ash fallout data from Badan Geologi, population count data derived by DMInnovation from WorldPop 2015 estimated population data, place information and land cover classification data provided by Indonesian Geospatial Portal at http://portal.ina-sdi.or.id and software developed by BNPB. Limitation in the estimates of surface fallout, population and places datasets may result in a significant misrepresentation of the on-the-surface situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem pagey="250" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="250" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{7f0073bc-5514-4f87-bd22-0540c1de7c90}" height="35" itemRotation="0" frame="false" pagex="0">
@@ -122,7 +122,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" marginX="7" marginY="0" labelText="Template version 4.8.2" htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="7" marginY="0" labelText="Template version 4.8.3" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="64" blue="220" green="176"/>
    <ComposerItem pagey="291" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="291" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{8165318b-f725-4aea-bfc3-f99d3973b1e2}" height="4" itemRotation="0" frame="false" pagex="0">
@@ -250,7 +250,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="120" page="1" id="impact-map" lastValidViewScaleFactor="2.91925" positionMode="0" positionLock="false" x="8" y="120" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{49244098-f7d7-4eb3-bbd4-08ceac212cd1}" height="89" itemRotation="0" frame="false" pagex="8">
+   <ComposerItem pagey="120" page="1" id="impact-map" lastValidViewScaleFactor="3.21429" positionMode="0" positionLock="false" x="8" y="120" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{49244098-f7d7-4eb3-bbd4-08ceac212cd1}" height="89" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="false" useExpr="true"/>

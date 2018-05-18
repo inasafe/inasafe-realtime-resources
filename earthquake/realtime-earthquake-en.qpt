@@ -15,7 +15,7 @@
     <prop k="style" v="solid"/>
    </layer>
   </symbol>
-  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Template version 4.5" htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Template version 4.5.1" htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,1,0,0,0,0" style=""/>
    <FontColor red="64" blue="220" green="176"/>
    <ComposerItem pagey="290" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="290" visibility="1" zValue="21" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{0050d28a-0c30-480d-a555-2b15a0e93648}" height="6" itemRotation="0" frame="false" pagex="0">
@@ -94,7 +94,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="This impact estimation is automatically generated and only takes into account the population and cities affected by different levels of ground shaking. The estimate is based on ground shaking data from BMKG, population count data derived by DMInnovation from worldpop.org.uk and BPS Census Data 2010, place information data provided by Indonesian Geospatial Portal at http://tanahair.indonesia.go.id and software developed by BNPB. Limitations in the estimates of ground shaking, population and place names datasets may result in significant misrepresentation of the on-the-ground situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources. The fatality calculation assumes that no fatalities occur for shake levels below MMI 4. Fatality counts of less than 50 are rounded down.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="This impact estimation is automatically generated and only takes into account the population and cities in Indonesia affected by different levels of ground shaking. The estimate is based on ground shaking data from BMKG, population count data derived by DMInnovation from WorldPop 2015 estimated population data and BPS 2010 census data, place information data provided by Indonesian Geospatial Portal at http://tanahair.indonesia.go.id and software developed by BNPB. Limitations in the estimates of ground shaking, population and place names datasets may result in significant misrepresentation of the on-the-ground situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources. The fatality calculation assumes that no fatalities occur for shake levels less than MMI IV.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem pagey="250" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="250" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.1" excludeFromExports="0" uuid="{21f0389b-c3ca-40a6-91e0-ecaed906ee35}" height="35" itemRotation="0" frame="false" pagex="0">
@@ -173,7 +173,7 @@
     </symbol>
    </ComposerMapOverview>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="3.21429" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{708b1768-2614-4dc5-ac13-024a0271e02c}" height="25" itemRotation="0" frame="true" pagex="8">
+   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="3.14286" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{708b1768-2614-4dc5-ac13-024a0271e02c}" height="25" itemRotation="0" frame="true" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="166" blue="227" green="206"/>
     <customproperties/>
@@ -299,7 +299,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="3.21429" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{1efb4c35-8466-423f-a8d9-780df05fdf86}" height="90" itemRotation="0" frame="false" pagex="8">
+   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="3.14286" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{1efb4c35-8466-423f-a8d9-780df05fdf86}" height="90" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="false" useExpr="true"/>

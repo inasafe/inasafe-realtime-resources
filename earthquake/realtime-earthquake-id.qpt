@@ -94,7 +94,7 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Perkiraan dampak ini dihasilkan secara otomatis dan hanya memperhitungkan penduduk dan kota yang terdampak oleh beberapa tingkatan getaran tanah. Perkiraan ini berdasarkan data getaran dari BMKG, data jumlah penduduk yang diturunkan oleh DMInnovation dari worldpop.org.uk dan data sensus BPS 2010, informasi tempat dari Portal Geospasial Indonesia di  http://tanahair.indonesia.go.id dan perangkat lunak yang dikembangkan oleh BNPB. Batasan dalam perkiraan getaran tanah, data populasi, dan data nama tempat dapat menghasilkan kesalahan representasi dari situasi yang sebenarnya terjadi. Oleh karena itu keputusan tidak seharusnya diambil semata-mata hanya berdasarkan informasi yang ditunjukkan di sini dan seharusnya selalu diperiksa kebenarannya dengan survei lapangan ataupun dari sumber informasi lainnya yang terpercaya. Perhitungan kematian menggunakan asumsi bahwa tidak terjadi kematian pada level getaran di bawah 4 MMI. Jumlah kematian kurang dari 50 akan dibulatkan kebawah.&#xa;&#xa;Laporan ini dibuat dengan menggunakan InaSAFE versi [% @inasafe_version%]. Kunjungi http://inasafe.org untuk informasi lebih lanjut." htmlState="0" halign="1">
+  <ComposerLabel valign="32" marginX="7" marginY="1" labelText="Perkiraan dampak ini dihasilkan secara otomatis dan hanya memperhitungkan penduduk dan kota di Indonesia yang terdampak oleh beberapa tingkatan getaran tanah. Perkiraan ini berdasarkan data getaran dari BMKG, data jumlah penduduk yang diturunkan oleh DMInnovation dari perkiraan data populasi WorldPop 2015 dan data sensus BPS 2010, informasi tempat dari Portal Geospasial Indonesia di  http://tanahair.indonesia.go.id dan perangkat lunak yang dikembangkan oleh BNPB. Batasan dalam perkiraan getaran tanah, data populasi, dan data nama tempat dapat menghasilkan kesalahan representasi dari situasi yang sebenarnya terjadi. Oleh karena itu keputusan tidak seharusnya diambil semata-mata hanya berdasarkan informasi yang ditunjukkan di sini dan seharusnya selalu diperiksa kebenarannya dengan survei lapangan ataupun dari sumber informasi lainnya yang terpercaya. Perhitungan kematian menggunakan asumsi bahwa tidak terjadi kematian pada level getaran kurang dari MMI IV.&#xa;&#xa;Laporan ini dibuat dengan menggunakan InaSAFE versi [% @inasafe_version%]. Kunjungi http://inasafe.org untuk informasi lebih lanjut." htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
    <ComposerItem pagey="250" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0" y="250" visibility="1" zValue="12" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.1" excludeFromExports="0" uuid="{e593da99-5c08-4a7f-bb18-259a71f56032}" height="35" itemRotation="0" frame="false" pagex="0">
@@ -173,7 +173,7 @@
     </symbol>
    </ComposerMapOverview>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="2.91925" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{d3af38c9-0a43-46d3-94c6-9aecb8b718f6}" height="25" itemRotation="0" frame="true" pagex="8">
+   <ComposerItem pagey="216" page="1" id="map-overall" lastValidViewScaleFactor="5.425" positionMode="0" positionLock="false" x="8" y="216" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.5" excludeFromExports="0" uuid="{d3af38c9-0a43-46d3-94c6-9aecb8b718f6}" height="25" itemRotation="0" frame="true" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="166" blue="227" green="206"/>
     <customproperties/>
@@ -237,7 +237,7 @@
    </ComposerItem>
   </ComposerLabel>
   <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="ash-impact-map" id="2" previewMode="Render" drawCanvasItems="true">
-   <Extent ymin="-9.54380267803660765" xmin="128.06589475022042279" ymax="-5.19795682360089284" xmax="132.89461236626010532"/>
+   <Extent ymin="-9.54380267803660765" xmin="128.06589475022042279" ymax="-5.19795682360089373" xmax="132.89461236626010532"/>
    <LayerSet/>
    <Grid/>
    <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="0,0,0,255" show="1" bottomAnnotationPosition="1" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{5a6a4ca8-27ad-4080-9590-e5aad8b046e3}" leftAnnotationDirection="2" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="0,0,0,255" intervalX="0.5" gridFrameSideFlags="15" intervalY="0.5" bottomAnnotationDirection="0" leftAnnotationDisplay="3" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="0" gridFramePenThickness="0" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="1" rightAnnotationPosition="1" gridFrameWidth="1" name="Grid 1" annotationFormat="1" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="2">
@@ -299,7 +299,7 @@
     <annotationFontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
    </ComposerMapGrid>
    <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="2.91925" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{86d7ead2-2529-4353-ace3-a5190254723d}" height="90" itemRotation="0" frame="false" pagex="8">
+   <ComposerItem pagey="118" page="1" id="impact-map" lastValidViewScaleFactor="5.425" positionMode="0" positionLock="false" x="8" y="118" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="100" outlineWidth="0.3" excludeFromExports="0" uuid="{86d7ead2-2529-4353-ace3-a5190254723d}" height="90" itemRotation="0" frame="false" pagex="8">
     <FrameColor alpha="255" red="0" blue="0" green="0"/>
     <BackgroundColor alpha="255" red="153" blue="208" green="178"/>
     <dataDefinedMapXMin expr="x_min(geom_from_wkt(@analysis_extent))" field="" active="false" useExpr="true"/>
