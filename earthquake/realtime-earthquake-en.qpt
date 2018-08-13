@@ -85,15 +85,6 @@
     <customproperties/>
    </ComposerItem>
   </ComposerLabel>
-  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="&lt;style>&#xa;p {&#xa;&#x9;line-height:0.5em;&#xa;&#x9;font-family: Ubuntu;&#xa;&#x9;font-size: 11 pt;&#xa;&#x9;margin-left: 7mm;&#xa;&#x9;margin-right: 1mm;&#xa;}&#xa;&lt;/style>&#xa;&#xa;&lt;p>Elapsed time since event [%case when hour(age(@end_datetime,hazard_extra_keyword('earthquake_event_time'))) > 24 then concat(to_string(floor(day(age(@end_datetime,hazard_extra_keyword('earthquake_event_time'))))), ' day(s) ', to_string(floor(day(age(@end_datetime,hazard_extra_keyword('earthquake_event_time')))%1*24)), ' hour(s)')&#xa;else concat(to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('earthquake_event_time'))))), ' hour(s) ', to_string(floor(hour(age(@end_datetime,hazard_extra_keyword('earthquake_event_time')))%1*60)), ' minute(s)') end%]&lt;/p>" htmlState="2" halign="2">
-   <LabelFont description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
-   <FontColor red="0" blue="0" green="0"/>
-   <ComposerItem pagey="41" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="108" y="41" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="95" outlineWidth="0.3" excludeFromExports="0" uuid="{4c2595cc-8ef9-4cd1-99e0-3d447d3b8209}" height="6" itemRotation="0" frame="false" pagex="108">
-    <FrameColor alpha="255" red="0" blue="0" green="0"/>
-    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-    <customproperties/>
-   </ComposerItem>
-  </ComposerLabel>
   <ComposerLabel valign="32" marginX="7" marginY="1" labelText="This impact estimation is automatically generated and only takes into account the population and cities in Indonesia affected by different levels of ground shaking. The estimate is based on ground shaking data from BMKG, population count data derived by DMInnovation from WorldPop 2015 estimated population data and BPS 2010 census data, place information data provided by Indonesian Geospatial Portal at http://tanahair.indonesia.go.id and software developed by BNPB. Limitations in the estimates of ground shaking, population and place names datasets may result in significant misrepresentation of the on-the-ground situation in the figures shown here. Consequently, decisions should not be made solely on the information presented here and should always be verified by ground truthing and other reliable information sources. The fatality calculation assumes that no fatalities occur for shake levels less than MMI IV.&#xa;&#xa;This report was created using InaSAFE version [% @inasafe_version%]. Visit http://inasafe.org for more information." htmlState="0" halign="1">
    <LabelFont description="Ubuntu,8,-1,5,50,0,0,0,0,0" style=""/>
    <FontColor red="0" blue="0" green="0"/>
